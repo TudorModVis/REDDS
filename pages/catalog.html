@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/catalog.css">
+
+    <script src="../js/app.js" defer></script>
+    <script src="../js/catalog.js" defer></script>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="overlay fav"></div>
+
+    <div class="menu">
+        <div class="menu-btn">
+            <div class="line-1 cross"></div>
+            <div class="line-2 cross"></div>
+        </div>
+        <a href="" class="logo">REDDS</a>
+
+        <input type="text" placeholder="Caută..." onfocus="this.value=''" id="search">
+
+        <div class="category" id="motor">
+            <p class="title">Tip motor</p>
+            <div>
+                <input type="checkbox" name="v2" id="v2">
+                <p>V2</p>
+            </div>
+            <div>
+                <input type="checkbox" name="v4" id="v4">
+                <p>V4</p>
+            </div>
+            <div>
+                <input type="checkbox" name="v4s" id="v4s">
+                <p>V4 S</p>
+            </div>
+        </div>
+
+        <div class="category" id="moto">
+            <p class="title">Tip Moto</p>
+            <div>
+                <input type="checkbox" name="atv" id="atv">
+                <p>ATV</p>
+            </div>
+            <div>
+                <input type="checkbox" name="clasic" id="clasic">
+                <p>Classic</p>
+            </div>
+            <div>
+                <input type="checkbox" name="sport" id="sport">
+                <p>Sport</p>
+            </div>
+        </div>
+
+        <div class="category" id="transmisie">
+            <p class="title">Transmisie</p>
+            <div>
+                <input type="checkbox" name="automata" id="automata">
+                <p>Automată</p>
+            </div>
+            <div>
+                <input type="checkbox" name="mecanica" id="mecanica">
+                <p>Mecanică</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="favorite">
+        <div class="menu-btn">
+            <div class="line-1 cross"></div>
+            <div class="line-2 cross"></div>
+        </div>
+        <h1>Favorite</h1>
+        
+        <div class="wrapper">
+            <h2 style="text-align: center;">Nu sunt favorite</h2>
+        </div>
+    </div>
+    
+    <section>
+        <div class="container">
+            <header>
+                <a href="home.html" class="logo">REDDS</a>
+                <nav>
+                    <a href="home.html">ACASĂ</a>
+                    <a href="catalog.html">MODELE</a>
+                    <a href="news.html">NOUTĂȚI</a>
+                    <a href="contacts.html">CONTACTE</a>
+                    <a href="faq.html">FAQ</a>
+                </nav>
+                <div>
+                    <img src="../images/heart.png" alt="" class="heart">
+                    <a href="../index.html">LOG IN</a>
+                </div>
+            </header>
+            <div class="content">
+                <img src="../images/CATALOG/image 2.png" alt="" class="logo-img">
+                <div class="products">
+                    <h1 id="heading">CHOOSE YOUR BIKE</h1>
+                    <div class="menu-btn">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                    </div>
+                    <div class="grid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="../images/HOME/REDDS BOLD.png" alt="">
+        <nav>
+            <a href="">Youtube</a>
+            <a href="">Twitter</a>
+            <a href="">Pinterest</a>
+            <a href="">Instagram</a>
+            <a href="">Snapchat</a>
+        </nav>
+        <p>Copyright © 2023</p>
+    </footer>
+</body>
+</html>

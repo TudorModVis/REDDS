@@ -1,0 +1,80 @@
+section {
+    display: flex;
+}
+
+.body {
+    margin-top: 7vh;
+    padding-bottom: 13vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 55%;
+    padding-right: 5%;
+}
+
+.left h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 4.5vh;
+}
+
+.left p {
+    margin: 0;
+    line-height: 2rem;
+}
+
+.right {
+    border-left: 1px solid #BABABA;
+    width: 35%;
+
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+form {
+    margin-top: 7vh;
+}
+
+form input[type=text] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #BABABA;
+    color: #BABABA;
+    padding: 2.3vh 0 2.3vh 0;
+    margin-bottom: 4.5vh;
+    font-size: 1rem;
+
+    width: 60%;
+}
+
+form input[type=text]:focus {
+    outline: none;
+}
+
+form input[type=text]::placeholder {
+    color: #BABABA;
+}
+
+form input[type=submit] {
+    margin-top: 2vh;
+
+    width: 60%;
+    background-color: #C90202;
+    border: none;
+    color: #F1F1F1;
+    padding: 2.3vh;
+    font-size: 1rem;
+}
+
+.details {
+    margin-bottom: 4.5vh;
+}
+
+.details .title {
+    color: #BABABA
+}

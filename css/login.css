@@ -1,0 +1,125 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/LOGIN/login-bg.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 80vw;
+    height: 80vh;
+
+    display: flex;
+}
+
+.login .left {
+    width: 50%;
+    background-image: url(../images/LOGIN/left.png);
+}
+
+.login .right {
+    width: 50%;
+    background-color: #F1F1F1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .right .body h1{
+    color: #C90202;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 5.5vh;
+}
+
+.login .right .body h1 span{
+    font-weight: bold;
+}
+
+.login .right .body #google {
+    position: relative;
+
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: #717171;
+    width: 100%;
+    margin-bottom: 5.5vh;
+}
+
+.login .right .body #google img{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    height: 55%;
+}
+
+.login .right .body #or {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.login .right .body #or .line{
+    height: 1px;
+    width: 38%;
+    background-color: #B5B5B5;
+
+}
+
+.login .right .body #or p {
+    width: 24%;
+    text-align: center;
+    color: #717171;
+    margin: 0;
+}
+
+form input[type=text], form input[type=password] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2.3vh 0 2.3vh 0;
+    margin-bottom: 4.5vh;
+
+    width: 100%;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input[type=submit] {
+    margin-top: 2vh;
+    margin-bottom: 4.5vh;
+
+    width: 100%;
+    background-color: #C90202;
+    border: none;
+    color: #F1F1F1;
+    padding: 2.3vh;
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+.body #link a {
+    color: #717171;
+    font-size: 1rem;
+}
+
+.body #link {
+    width: 100%;
+
+    text-align: center;
+}
+
+.body {
+    width: 70%;
+}
+

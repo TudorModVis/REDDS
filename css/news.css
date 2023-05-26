@@ -1,0 +1,97 @@
+section {
+    display: flex;
+}
+
+.first, .third {
+    display: flex;
+}
+
+.fill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left {
+    width: 50%;
+    padding-right: 3.5%;
+    border-right: 1px solid #BABABA;
+}
+
+.right {
+    width: 50%;
+    padding-left: 3.5%;
+}
+
+.img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.right h2 {
+    margin-top: 2.3vh;
+}
+
+p {
+    font-weight: 300;
+}
+
+.first .span {
+    margin-top: 4vh;
+}
+
+span {
+    position: relative;
+}
+
+span img {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    height: 60%;
+}
+
+.second {
+    width: 66%;
+    margin: auto;
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+
+    text-align: center;
+}
+
+.second p {
+    margin: 0;
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+}
+
+.second .span {
+    margin-top: 4.5vh;
+}
+
+.third .right h2 {
+    margin-top: 0;
+}
+
+.third .left h2 {
+    margin-top: 2.3vh;
+}
+
+.third .right .span {
+    margin-top: 4vh;
+}
+
+.third {
+    margin-bottom: 14vh;
+}
+
+header {
+    margin-bottom: 7vh;
+}

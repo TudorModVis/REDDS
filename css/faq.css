@@ -1,0 +1,72 @@
+section {
+    display: flex;
+    margin-bottom: 9vh;
+}
+
+.body {
+    margin-top: 9vh;
+}
+
+.body h1 {
+    font-weight: 500;
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.body p {
+    line-height: 1.5rem;
+}
+
+.image {
+    margin-top: 9vh;
+    margin-bottom: 14vh;
+    height: 18.5vh;
+    background-image: url(../images/FAQ/poza.png);
+}
+
+#wrapper .question {
+    position: relative;
+
+    padding-top: 10px;
+    margin-bottom: 4.5vh;
+    border-top: 2px solid #F1F1F1;
+    overflow: hidden;
+
+    cursor: pointer;
+    transition: 0.5s all;
+    height: fit-content;
+}
+
+#wrapper .question.open p {
+    display: block;
+}
+
+#wrapper .question .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#wrapper .question img {
+    position: absolute;
+    height: 3vh;
+    right: 2vw;
+    top: 4vh;
+}
+
+#wrapper .question .number {
+    margin-right: 5vw;
+    font-size: 2rem;
+}
+
+#wrapper .question p {
+    display: none;
+    padding-top: 20px;
+}
+
+.overlay {
+    background-color: transparent;
+}
